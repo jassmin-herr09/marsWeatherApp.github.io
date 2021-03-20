@@ -4,11 +4,12 @@
 
 // state variables - data that changes
 
-//let weather;
+let weather = [];
 
 // cached element references - parts of the dom we need to touch
 
-//const $weather = $('#weather');
+const $weather = $('#weather');
+
 
 // event listeners - capture and respond to events i.e. user clicks on something
 // functions - code that represents actions taken/carried out.
@@ -25,7 +26,7 @@ function getData() {
         .then(function (data) {
             
             console.log(data);
-           // weather = data;
+             weather = data;
             render();
         }, function (error) {
             console.log(error);
