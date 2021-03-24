@@ -11,11 +11,11 @@ Insight's weather mesasurements from the surface of Mars.
 
 ## Screenshots
 
-![screenshot1]()
+![screenshot1](./MarsWeatherApp.png)
 
 ## Getting Started
 
-[Click here](#) to see the app in your browser
+[Click here](https://jassmin-herr09.github.io/marsWeatherApp.github.io/) to see the app in your browser
 
 ## Future Enhancements
 
